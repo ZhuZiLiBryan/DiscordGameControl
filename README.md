@@ -1,0 +1,2 @@
+# DiscordGameControl
+Discord bot that reads user messages, translating to player input on host's machine.  Inspired by DougDoug on Twitch, who hosts games that can be controlled by Twitch stream viewers.  Goal was to perform something similar, but easy to set up for anybody that knows how to use Discord.
