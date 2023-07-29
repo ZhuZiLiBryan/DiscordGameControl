@@ -11,7 +11,13 @@ client = discord.Client(intents=discord.Intents.default())
 
 @client.event
 async def on_ready():
-    print(f"{client.user} has connected to Discord")
+    print("Controller is connected!")
+    print("Automatically print controls with their corresponding text commands here")
+
+@client.event
+async def on_message(message):
+    print("Read user input, only respond if coming from a dedicated channel")
+    print("Interface with pydirect input to move character in game")
 
 client.run(TOKEN)
 
